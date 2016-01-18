@@ -1,0 +1,6 @@
+/* centered columns styles */
+.center-vertical {
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
+}
