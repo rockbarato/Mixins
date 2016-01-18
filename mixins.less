@@ -171,3 +171,13 @@
 	-ms-transform-origin:     @x @y;
 	-o-transform-origin:      @x @y;
 }
+
+
+.truncate-line(@width: 100%) {
+	text-overflow: ellipsis;
+	display: inline-block;
+	vertical-align: top;
+	white-space: nowrap;
+	overflow: hidden;
+	width: @width;
+}
