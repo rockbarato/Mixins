@@ -9,13 +9,13 @@ This is a reusable CSS Mixins libraries made for your people like you!
 
 First of all, you need to install LESS Compiler with [node.js](https://nodejs.org/) package manager, as so:
 
-```
+```bash
 $ npm install -g less
 ```
 
 The, once installed, simply import the `mixins.less` file to the top of your main LESS file and you can invoke  the compiler from the command line, as such:
 
-```
+```bash
 $ lessc --clean-css styles.less styles.min.css
 ```
 
